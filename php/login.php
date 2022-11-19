@@ -37,6 +37,6 @@ $_SESSION['user_id'] = $user['id'];
 $_SESSION['user_name'] = $user['nome'];
 
 //direciona para a página principal
-header('Location: index.php');
+header('Location: panel.php');
 
 ?>

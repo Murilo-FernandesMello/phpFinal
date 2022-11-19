@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color:#C80808;
+    background-image: url(../img/lowpoly.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img{
+    width: 150px;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#label{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 15pt;
+}
+
+.filmes{
+    width: 750px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 20px;
+    margin-bottom: 50px;   
+}
+
+.filmes img{
+    width: 150px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 5px;
+}

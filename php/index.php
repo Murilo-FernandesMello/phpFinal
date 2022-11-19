@@ -16,22 +16,22 @@ require 'init.php';
          
         <h1>Bem-Vindo!</h1>
  
-        <?php if (isLoggedIn()): ?>
-            <p>Olá, <?php echo $_SESSION['user_name']; ?>. <a href="panel.php">Painel</a> | <a href="logout.php">Sair</a></p>
-        <?php else: ?>
             <p id="texto">Olá, visitante! <br>
             Aqui, você encontrará as melhores cenas de filmes premiados. <br>
             Para acessar os clipes, faça <a href="form-login.php">login</a>. <br>
-        Alguns dos filmes presentes:</p>
-        <?php endif; ?>
+            Alguns dos filmes presentes:</p>
+ 
         
         <div class="filmes">
+        <a href="https://www.youtube.com/watch?v=WqD5Z-_Bh8I&list=PLjXmHCb6qiS2-f-BAyrScPyinLnq_qNjq&index=16">
         <img src="../img/forest gump.png" id="forest">
+        </a>
+        <a href="https://www.youtube.com/watch?v=RbZqdYDZK8U">
         <img src="../img/drive.png" id="drive">
+        </a>
+        <a href="https://www.youtube.com/watch?v=JmTYYKV130w">
         <img src="../img/whiplash.png" id="whiplash">
-        <img src="../img/forest gump.png" id="forest">
-        <img src="../img/drive.png" id="drive">
-        <img src="../img/whiplash.png" id="whiplash">
+        </a>
         </div>
     </body>
 </html>
