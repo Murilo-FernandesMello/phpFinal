@@ -18,6 +18,7 @@
 
     <br><br>
     <form action="login.php" method="POST">
+
         <label for="email" id="label">E-mail</label>
         <br><br>
         <input type="text" name="email" id="input">
@@ -27,6 +28,7 @@
         <input type="password" name="senha" id="input">
         <br><br>
         <input type="submit" value="Entrar" id="submit">
+        
     </form>
     </div>
 </body>

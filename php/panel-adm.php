@@ -15,11 +15,12 @@ require 'check.php';
     <img src="../img/Sweet.png" id="img">
     <body>
          
-        <h1>Painel do Usuário</h1>
+        <h1>Painel do Administrador</h1>
  
         <p id="label">Bem-vindo (a), <?php echo $_SESSION['user_name']; ?>! | Clique aqui Para <a href="logout.php">Sair</a></p>
+        <p id="label">Aqui você pode conceder ou bloquear o acesso de usuários ao painél principal.</p>
+                                        
 
-        
         </div>
     </body>
 </html>
