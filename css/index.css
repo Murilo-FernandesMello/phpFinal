@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color:#C80808;
+    background-color:#000000;
     background-image: url(../img/lowpoly.png);
 }
 
@@ -23,7 +23,6 @@ h1{
     color: white;
     margin-left: 150px;
     margin-top: 50px;
-    text-align: center;
 }
 .filmes{
 
