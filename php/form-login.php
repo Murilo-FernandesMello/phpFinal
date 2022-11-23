@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="../css/login.css">
     <title>CF - Login</title>
-    <img src="../img/Sweet.png" id="img">
-</head>
+    <a href="../php/index.php"><img src="../img/Sweet.png" id="img"></a></head>
 <body>
 
 

@@ -10,8 +10,7 @@ require 'init.php';
         <link rel="stylesheet" href="../css/index.css">
         <title>CF - Index</title>
     </head>
-    <img src="../img/Sweet.png" id="img">
-    <body>
+    <a href="../php/index.php"><img src="../img/Sweet.png" id="img"></a>    <body>
     
          
         <h1>Bem-Vindo!</h1>

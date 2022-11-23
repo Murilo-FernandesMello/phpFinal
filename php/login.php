@@ -2,7 +2,7 @@
 require 'init.php';
 $email = isset($_POST['email']) ? $_POST['email'] : '';
 $senha = isset($_POST['senha']) ? $_POST['senha'] : '';
-
+$ativar = $_POST['ativar'];
 //verificação 1
 if(empty($email) || empty($senha)){
     echo "Email ou Senha Incorretas";
@@ -18,6 +18,7 @@ $stmt->bindParam(':email', $email);
 $stmt->bindParam(':senha', $senha);
 
 $stmt->execute();
+
  
 $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 $user = $users[0];
@@ -33,10 +34,8 @@ if($user['ativo'] == 0){
    header('Location:panel-adm.php');
 }
 
-   
 
 
-//verifica se é usuário ou adm
 
 
 if (count($users) <= 0){
