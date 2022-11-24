@@ -17,7 +17,7 @@ require 'init.php';
  
             <p id="texto">Olá, visitante! <br>
             Aqui, você encontrará as melhores cenas de filmes premiados. <br>
-            Para acessar os clipes, faça <a href="form-login.php">login</a>. <br>
+            Para acessar os clipes, faça <a href="form-login.php">login</a> ou <a href="form-cadastro.php">crie sua conta</a>. <br>
             Alguns dos filmes presentes:</p>
  
         
