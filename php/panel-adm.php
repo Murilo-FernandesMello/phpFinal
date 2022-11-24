@@ -32,6 +32,7 @@ require 'check.php';
             <th>Ativo</th>
             <th>Conceder acesso</th>
             <th>Bloquear acesso</th>
+            <th>Deletar usuário</th>
         </tr>
         </thead>
         <tbody>
@@ -53,6 +54,7 @@ require 'check.php';
                 <!--<td><input type="submit" value="X" id="bloquear"></td>-->
                 <td><a href=<?php echo "./ativar.php\?id=".$usuario['id']?>>[Liberar]</a></td>
                 <td><a href=<?php echo "./bloquear.php\?id=".$usuario['id']?>>[Bloquear]</a></td>
+                <td><a href=<?php echo "./deletar.php\?id=".$usuario['id']?>>[Deletar]</a></td>
          
                 <?php
                }
